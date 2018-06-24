@@ -36,8 +36,6 @@
 @import 'styles/base/constants';
 @import 'styles/base/vars';
 
-/* import the scss for the components/partials */
-@import 'styles/components/catalogue';
 
 @mixin custom-components-theme($theme) {
   @include anms-styles-reset-theme($theme);

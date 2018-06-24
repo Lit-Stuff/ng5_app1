@@ -1,8 +1,13 @@
 @import '../styles-variables';
+@import '../styles/base/colors';
 
 mat-sidenav-container {
   height: 100%;
   width: 100%;
+
+  .nav-header {
+    background-color: $primaryBlue-lighter;
+  }
 
   .toolbar {
     position: fixed;
@@ -15,6 +20,7 @@ mat-sidenav-container {
 
     mat-icon {
       font-size: 24px;
+      color: $white;
     }
 
     .branding {
@@ -36,6 +42,8 @@ mat-sidenav-container {
     .sign-in-button {
       line-height: 35px;
       margin-right: 10px;
+      color: $white;
+      border-color: $white;
     }
 
     .spacer {
@@ -75,6 +83,7 @@ mat-sidenav-container {
       flex: 0 0 auto;
       padding: 0 15px;
       text-align: center;
+      background-color: $primaryBlue-lighter;
 
       .row {
         padding: 10px 0;
@@ -92,6 +101,7 @@ mat-sidenav-container {
             mat-icon {
               font-size: 30px;
               width: 35px;
+              color: $white;
             }
 
             span {

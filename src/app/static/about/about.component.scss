@@ -12,7 +12,7 @@ h2 {
 }
 
 .background {
-  padding: 80px 0 0 0;
+  padding: 170px 0 0 0;
   position: relative;
 
   .actions {
@@ -64,9 +64,9 @@ h2 {
     left: 0;
     bottom: 0;
     right: 0;
-    background: url('../../../assets/intro.jpg') no-repeat center top;
+    background: url('../../../assets/clothes.jpg') no-repeat center top;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.5;
     content: '';
     z-index: 0;
   }
@@ -128,33 +128,33 @@ h2 {
   }
 }
 
-@media (max-width: map-get($grid-breakpoints, sm)) {
-  .background {
-    padding: 40px 0 0 0;
+// @media (max-width: map-get($grid-breakpoints, sm)) {
+//   .background {
+//     padding: 40px 0 0 0;
 
-    h1 {
-      line-height: 1em;
-    }
+//     h1 {
+//       line-height: 1em;
+//     }
 
-    .actions {
-      margin: 40px 0 0 0;
+//     .actions {
+//       margin: 40px 0 0 0;
 
-      span {
-        padding: 10px 0 20px 0;
-      }
+//       span {
+//         padding: 10px 0 20px 0;
+//       }
 
-      a {
-        width: 100%;
-      }
-    }
+//       a {
+//         width: 100%;
+//       }
+//     }
 
-    .get-started {
-      width: auto;
-      margin: 40px auto 40px auto;
-    }
-  }
+//     .get-started {
+//       width: auto;
+//       margin: 40px auto 40px auto;
+//     }
+//   }
 
-  .follow-releases {
-    margin: 0 auto 40px auto;
-  }
-}
+//   .follow-releases {
+//     margin: 0 auto 40px auto;
+//   }
+// }
