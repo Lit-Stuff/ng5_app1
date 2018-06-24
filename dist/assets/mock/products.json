@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Sleeveless Jersey Dress",
+            "description": "Sleeveless dresses in jersey with a printed design. Seam at waist and flared skirt.",
+            "points": 450,
+            "img": "http://lp.hm.com/hmprod?set=source%5B%2Fmodel%2F2018%2FG00%200553873%20022%2099%201d6e98a66038f41dad8db68c38b0816514d634df.jpg%5D%2Cmedia_type%5BDESCRIPTIVE_STILL_LIFE%5D%2Ctshirt_size%5BXL%5D%2Cquality%5BH%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fstudio2%2Fv1%2Fproduct.chain%5D"
+        },
+        {
+            "id": 2,
+            "name": "Fine-knit Bolero",
+            "description": "Bolero in fine-knit cotton with a faceted, heart-shaped button. Long-sleeves with ribbed cuffs.",
+            "points": 850,
+            "img": "http://lp.hm.com/hmprod?set=source%5B%2Fmodel%2F2018%2FG00%200619158%20001%2099%202020cb585dd9b9fc18a1033dda22cb475757661f.jpg%5D%2Cmedia_type%5BDESCRIPTIVE_STILL_LIFE%5D%2Ctshirt_size%5BL%5D%2Cquality%5BH%5D%2Chmver%5B0%5D&call=url%5Bfile%3A%2Fstudio2%2Fv1%2Fproduct.chain%5D"
+        },
+        {
+            "id": 3,
+            "name": "Sleeveless Jersey Dress",
+            "description": "Sleeveless dresses in jersey with a printed design. Seam at waist and flared skirt.",
+            "points": 450,
+            "img": "http://lp.hm.com/hmprod?set=source%5B%2Fmodel%2F2018%2FG00%200553873%20033%2066%203337.jpg%5D%2Cmedia_type%5BSTILL_LIFE_FRONT%5D%2Ctshirt_size%5BM%5D%2Cquality%5BH%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Flegacy%2Fv1%2Fproduct.chain%5D"
+        },
+        {
+            "id": 4,
+            "name": "Sweatshorts",
+            "description": "",
+            "points": 300,
+            "img": "http://lp.hm.com/hmprod?set=source%5B%2Fmodel%2F2018%2FG00%200562677%20003%2099%2041c03e4e454e7b8d46889ca1237b88940308fcd6.jpg%5D%2Cmedia_type%5BDESCRIPTIVE_STILL_LIFE%5D%2Ctshirt_size%5BL%5D%2Cquality%5BH%5D%2Chmver%5B0%5D&call=url%5Bfile%3A%2Fstudio2%2Fv1%2Fproduct.chain%5D"
+        },
+        {
+            "id": 5,
+            "name": "Denim Jacket",
+            "description": "Jacket in washed stretch denim with a collar. Snap fasteners at front, chest pockets with flap and snap fastener, and buttons at cuffs.",
+            "points": 1290,
+            "img": "http://lp.hm.com/hmprod?set=source%5B%2Fmodel%2F2018%2FG00%200576939%20001%2099%207bb19a23495fe5b0ba8c1b08d8df9f5c9b3865b0.jpg%5D%2Cmedia_type%5BDESCRIPTIVE_STILL_LIFE%5D%2Ctshirt_size%5BL%5D%2Cquality%5BH%5D%2Chmver%5B0%5D&call=url%5Bfile%3A%2Fstudio2%2Fv1%2Fproduct.chain%5D"
+        }
+    ] 
+}

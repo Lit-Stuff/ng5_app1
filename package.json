@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "dev": "ng serve --open",
+    "start": "node server.js",
     "build": "ng build",
     "test": "npm run lint && ng test --configuration=test",
     "lint": "ng lint",
@@ -18,7 +19,8 @@
     "release": "standard-version && git push --follow-tags origin master",
     "prettier": "prettier {src,e2e}/**/*.{ts,json,md,scss} --write",
     "prettier:ci": "prettier {src,e2e}/**/*.{ts,json,md,scss} --list-different",
-    "analyze": "npm run clean && npm run build:prod -- --stats-json && webpack-bundle-analyzer ./dist/stats.json"
+    "analyze": "npm run clean && npm run build:prod -- --stats-json && webpack-bundle-analyzer ./dist/stats.json",
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
@@ -40,6 +42,7 @@
     "bootstrap": "^4.0.0",
     "browser-detect": "^0.2.27",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
     "hoek": "^5.0.3",
     "material-design-icons": "^3.0.1",
     "rxjs": "^6.0.0",
