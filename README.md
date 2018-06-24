@@ -69,3 +69,4 @@ Articles with content that explains various approaches used to build this starte
 ### Acknowledgements
 
 Built with and uses [Angular CLI](https://github.com/angular/angular-cli)
+[hoek - vulnerability alert ](https://github.com/Microsoft/vscode/issues/48783)
