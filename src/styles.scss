@@ -27,8 +27,17 @@
 @import 'app/examples/theming/child/child.component.scss-theme';
 @import 'app/examples/examples/examples.component.scss-theme';
 
-/* Material icons */
-@import 'styles/material-icons/material-icons';
+/* Material custom styles */
+@import 'styles/material/material-icons';
+@import 'styles/material/card';
+
+/* Base */
+@import 'styles/base/colors';
+@import 'styles/base/constants';
+@import 'styles/base/vars';
+
+/* import the scss for the components/partials */
+@import 'styles/components/catalogue';
 
 @mixin custom-components-theme($theme) {
   @include anms-styles-reset-theme($theme);

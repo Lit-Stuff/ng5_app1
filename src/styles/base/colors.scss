@@ -1,0 +1,100 @@
+// Colors
+
+//darks seemingly black
+$color-main-dark: #28283a;
+$color-secondary-dark: #08080a;
+
+//background color pattern
+$color-bg-dark: #171726;
+$color-bg-gray: #f8fafb;
+
+//header text color patterns
+$color-text-dark: #565664;
+$color-text-light-dark: #797979;
+
+//dropdown menu colors
+$color-menu-bg-hover: #f9fafb;
+
+//grays
+$color-main-gray: $color-main-dark;
+$color-light-gray: #efefef;
+// $color-bg-gray: #f3f5f9; Alternative
+// $color-bg-gray: #f6f7fb; most previous
+$color-border-offset: #383945;
+
+//grays links
+$color-link-gray: #969cab;
+$color-hover-gray: darken($color-bg-gray, 2%);
+$color-active-gray: $color-main-dark;
+
+// blues - main link
+$color-link-blue: #00c2ff;
+$color-active-blue: #09a8da;
+
+// green for hilights
+$color-link-green: #82d428;
+$color-secondary-hilight: #26dec5;
+
+//colors for page banner notifications
+$section-banner-yellow: #fff7e4;
+$section-banner-yellow-text: #ffc56a;
+$section-banner-blue: #d8f5ff;
+$section-banner-blue-text: $color-link-blue;
+
+//colors for banners
+$color-banner-green-start: #23c48e;
+$color-banner-green-early-end: #1b9b6a;
+$color-banner-green-late-start: #198663;
+$color-banner-green-end: #12633d;
+
+$color-subscription-preference-banner-end: #fad961;
+$color-subscription-preference-banner-start: #f76b1c;
+
+//purple/red
+$color-banner-1-start: #893e88;
+$color-banner-1-end: #c72b47;
+
+//green
+$color-banner-2-start: #5ba72b;
+$color-banner-2-end: #a0dd48;
+
+//defining, just in case subscription banner changes colors
+//orange/yellow
+$color-banner-3-start: #fad961;
+$color-banner-3-end: #f76b1c;
+
+//blue
+$color-banner-4-start: #02cafe;
+$color-banner-4-end: #4ae4cd;
+
+//purple/blue
+$color-banner-5-start: #7b4397;
+$color-banner-5-end: #24a2e1;
+
+//colors
+
+$primaryBlue: #009bcc;
+$primaryTeal: #67c29e;
+$success: #5cb85c;
+$orange: #efa036;
+$red: #db2e17;
+$darkGray: #34343f;
+$lightGray: #9997a1;
+$white: #fff;
+
+//red shades
+$red-darker: darken($red, 10%);
+$red-dark: darken($red, 5%);
+
+//orange shades
+$orange-darker: darken($orange, 10%);
+$orange-dark: darken($orange, 5%);
+
+//used on dashboard container
+$primaryBlue-lighter: lighten($primaryBlue, 10%);
+
+//used on dashboard container
+$primaryTeal-darker: darken($primaryTeal, 10%);
+
+//used on a couple of components as border and light text
+$lightGray-lighter: lighten($lightGray, 10%);

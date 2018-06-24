@@ -11,31 +11,37 @@
       <a mat-list-item
         *ngFor="let item of navigationSideMenu"
         (click)="sidenav.close()"
-        [routerLink]="[item.link]" routerLinkActive="active">
-        {{item.label}}
+        [routerLink]="[item.link]"
+        routerLinkActive="active">
+          {{item.label}}
       </a>
     </mat-nav-list>
   </mat-sidenav>
 
   <div class="toolbar">
-    <mat-toolbar color="primary">
-      <button mat-icon-button class="d-md-none" (click)="sidenav.open()">
+    <mat-toolbar color="">
+      <button mat-icon-button
+        (click)="sidenav.open()">
         <mat-icon fontSet="fas" fontIcon="fa-bars"></mat-icon>
       </button>
 
-      <span routerLink=""
+      <!-- <span routerLink=""
         class="branding spacer d-none d-md-inline">
         <img [src]="logo"/>
         Brand Name
-      </span>
+      </span> -->
 
-      <span class="d-none d-md-inline">
-        <button mat-button class="nav-button" *ngFor="let item of navigation"
-                [routerLink]="[item.link]" routerLinkActive="active">
-          {{item.label}}
+      <!-- nav items -->
+      <!-- <span class="d-none d-md-inline">
+        <button mat-button class="nav-button"
+          *ngFor="let item of navigation"
+          [routerLink]="[item.link]"
+          routerLinkActive="active">
+            {{item.label}}
         </button>
-      </span>
+      </span> -->
 
+      <span class="branding spacer center d-inline"></span>
       <button mat-button
         class="sign-in-button "
         *ngIf="!isAuthenticated"
@@ -58,7 +64,7 @@
       </mat-menu>
 
       <!-- Shopping Cart -->
-      <button mat-icon-button routerLink="shopping-cart">
+      <button class="d-md-inline" mat-icon-button routerLink="shopping-cart">
         <mat-icon fontSet="fas" fontIcon="fa-shopping-cart"></mat-icon>
       </button>
 
@@ -70,7 +76,6 @@
   </div>
 
   <div class="wrapper">
-
     <div class="content"
       [@routeAnimations]="o.isActivated && o.activatedRoute.routeConfig.path">
       <router-outlet #o="outlet"></router-outlet>
@@ -99,7 +104,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
 </mat-sidenav-container>

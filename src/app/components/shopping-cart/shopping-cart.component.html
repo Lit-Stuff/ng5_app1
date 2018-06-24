@@ -12,21 +12,21 @@
           <img mat-card-sm-image src="{{item.img}}" alt="">
         </div>
 
-        <i class="fas fa-trash-alt icon sz-24" (click)="handleDeletItem(item)"></i>
-        <i class="far fa-dizzy icon sz-24"></i>
-        <i class="far fa-grin-stars icon sz-24"></i>
-        <i class="fas fa-dizzy icon sz-24"></i>
-        <i class="far fa-meh-rolling-eyes"></i>
-        <i class="fas fa-meh-rolling-eyes"></i>
+        <mat-icon fontSet="fas"
+          fontIcon="fa-trash-alt"
+          class="icon sz-24"
+          color="warn"
+          (click)="handleDeletItem(item)">
+        </mat-icon>
       </mat-card>
     </div>
-    <mat-card-title *ngIf="!selectedItems.length">
-        <!-- <i class="material-icons">
-          sentiment_very_dissatisfied
-        </i> No items in your shopping chart
-        <i class="material-icons">
-            sentiment_dissatisfied
-            </i> -->
-    </mat-card-title>
+  </div>
+
+  <div class="d-flex justify-content-center align-items-center"
+    *ngIf="!selectedItems.length">
+    <i class="material-icons">
+      sentiment_very_dissatisfied
+    </i> 
+    <span>No items in your shopping chart</span>
   </div>
 </div>

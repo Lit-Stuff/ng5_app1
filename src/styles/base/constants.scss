@@ -1,0 +1,37 @@
+////////////////////////////////////////////////////
+////
+///   _constants.scss
+//
+
+$PRIMARY_COLOR:   #333;
+$SECONDARY_COLOR: #777;
+
+$PRIMARY_BG_COLOR:   #f63;
+$SECONDARY_BG_COLOR: #cf0;
+
+$GT_RED:          #fd4e4e;    // rgb(253, 78, 78);
+$GT_RED_HOVER:    #df3030;
+$GT_RED_ACTIVE:   #df3030;
+
+$GT_GREEN:        #4cbe89;    // rgb(76,190,137)  //rgb(76, 190, 135);
+$GT_GREEN_HOVER:  #2ea069;
+$GT_GREEN_ACTIVE: #b7e5cf;
+
+$GT_BLUE:         #3bb9bd;
+$GT_BLUE_HOVER:   #1d9b9f;
+$GT_BLUE_ACTIVE:  #b1e3e5;
+
+$GT_BLACK:        #333;
+$GT_BLACK_HOVER:  #111;
+$GT_BLACK_ACTIVE: #adadad;
+
+// alias
+$GT_GREY:     $GT_BLACK;
+$GT_GREY_HOVER:   $GT_BLACK_HOVER;
+$GT_GREY_ACTIVE:  $GT_BLACK_ACTIVE;
+
+$GT_LIGHT:        #eee;
+$GT_LIGHT_HOVER:  #f0f0f0;
+$GT_LIGHT_ACTIVE: #f8f8f8;
+
+$CLIENT_UI_SCROLLBAR_WIDTH: 16px;

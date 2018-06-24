@@ -1,0 +1,61 @@
+// vars and constants...
+//
+
+$header-height: 40px;
+$header-height-expanded: 40px;
+$side-nav-width: 40px;
+$side-nav-width-expanded: 195px;
+$side-nav-item-label-width: 100px;
+$directory-header-banner-height: 99px;
+$create-campaign-nav-height: 34px;
+$create-campaign-banner-height: 67px;
+$banner-height: 50px;
+
+$gt-bottom-sheet-height: 85px;
+
+$kemosabe: #456778;
+
+// well definitions
+$gt-radius: 3px;
+$gt-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+
+// Z-indexes
+//--------------------------------------------
+
+// For reference, angular material component z-indices:
+
+//$md-z-index-toast: 105 !default;
+//$md-z-index-tooltip: 100 !default;
+//$md-z-index-menu: 100 !default;
+//$md-z-index-select: 90 !default;
+//$md-z-index-dialog: 80 !default;
+//$md-z-index-bottom-sheet: 70 !default;
+//$md-z-index-scroll-mask: 65 !default;
+//$md-z-index-sidenav: 60 !default;
+//$md-z-index-backdrop: 50 !default;
+//$md-z-index-fab: 20 !default;
+//$md-z-index-progress-circular: 2 !default; // Used to fix animation bug in Chrome
+
+$gt-z-index-dropdown-menu: 90 !default;
+$gt-z-index-bottom-sheet: 70 !default;
+$gt-z-index-header: 40 !default;
+$gt-z-index-progress-linear-affixed: 3 !default;
+$gt-z-index-donut-chart: 1 !default;
+$gt-z-index-pie-chart: 1 !default;
+$gt-z-index-hero-donut-highcharts-container: 1 !default;
+
+// Font Family
+//
+
+$gt-font-family: proxima-nova-alt, verdana, geneva, sans-serif !default;
+$chubby: bold;
+$body-font: 14px;
+
+// Padding rules
+// There are certain numbers that will be observed for all dimensions. 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+$padding-interior-well: 34px 34px;
+$margin-exterior-well: 8px auto;
+$border-light: 1px solid $color-light-gray;
+
+// other vars
+$gt-cursor-disabled: not-allowed !default;
