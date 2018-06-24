@@ -38,11 +38,11 @@ export class AppComponent implements OnInit, OnDestroy {
   envName = env.envName;
   version = env.versions.app;
   year = new Date().getFullYear();
-  logo = require('../assets/logo.png');
+  logo = require('../assets/baby2.png');
   navigation = [
     { link: 'about', label: 'About' },
-    { link: 'features', label: 'Features' },
-    { link: 'examples', label: 'Examples' }
+    { link: 'features', label: 'Shop' },
+    // { link: 'examples', label: 'Examples' }
   ];
   navigationSideMenu = [
     ...this.navigation,

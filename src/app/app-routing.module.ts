@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { SettingsComponent } from './settings';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,13 @@ const routes: Routes = [
     component: SettingsComponent,
     data: {
       title: 'Settings'
+    }
+  },
+  {
+    path: 'shopping-cart',
+    component: ShoppingCartComponent,
+    data: {
+      title: 'Shopping Cart'
     }
   },
   {

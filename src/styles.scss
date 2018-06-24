@@ -27,6 +27,9 @@
 @import 'app/examples/theming/child/child.component.scss-theme';
 @import 'app/examples/examples/examples.component.scss-theme';
 
+/* Material icons */
+@import 'styles/material-icons/material-icons';
+
 @mixin custom-components-theme($theme) {
   @include anms-styles-reset-theme($theme);
   @include anms-app-component-theme($theme);

@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row align-items-end">
+    <div class="col-md-6 col-lg-4"
+      [ngClass]="routeAnimationsElements"
+      *ngFor="let item of selectedItems">
+      <mat-card>
+        <mat-card-title>{{item.name}}</mat-card-title>
+        <div class="d-flex flex-row justify-content-between align-items-center">
+          <mat-card-subtitle>
+            {{item.description}}
+          </mat-card-subtitle>
+          <img mat-card-sm-image src="{{item.img}}" alt="">
+        </div>
+
+        <i class="fas fa-trash-alt icon sz-24" (click)="handleDeletItem(item)"></i>
+        <i class="far fa-dizzy icon sz-24"></i>
+        <i class="far fa-grin-stars icon sz-24"></i>
+        <i class="fas fa-dizzy icon sz-24"></i>
+        <i class="far fa-meh-rolling-eyes"></i>
+        <i class="fas fa-meh-rolling-eyes"></i>
+      </mat-card>
+    </div>
+    <mat-card-title *ngIf="!selectedItems.length">
+        <!-- <i class="material-icons">
+          sentiment_very_dissatisfied
+        </i> No items in your shopping chart
+        <i class="material-icons">
+            sentiment_dissatisfied
+            </i> -->
+    </mat-card-title>
+  </div>
+</div>

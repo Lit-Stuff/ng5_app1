@@ -1,0 +1,59 @@
+/* Rules for sizing the icon. */
+
+/* E.g. <i class="material-icons md-18">face</i> */
+
+.icon {
+  &.sz-18 {
+   font-size: 18px;
+  }
+}
+
+.icon {
+  &.sz-24 {
+    font-size: 24px;
+  }
+}
+
+.icon {
+  &.sz-36 {
+    font-size: 36px;
+  }
+}
+
+.icon {
+  &.sz-48 {
+    font-size: 48px;
+  }
+}
+
+/* Rules for using icons as black on a light background. */
+
+/* E.g. <i class="material-icons md-dark">face</i> */
+
+.icon {
+	&.md-dark {
+  	color: rgba(0, 0, 0, 0.54);
+	}
+}
+
+.icon {
+	&.md-dark.md-inactive {
+  	color: rgba(0, 0, 0, 0.26);
+	}
+}
+
+/* Rules for using icons as white on a dark background. */
+
+/* E.g <i class="material-icons md-light md-inactive">face</i> */
+
+.icon {
+	&.md-light {
+  	color: rgba(255, 255, 255, 1);
+	}
+}
+
+.icon {
+	&.md-light.md-inactive {
+  	color: rgba(255, 255, 255, 0.3);
+	}
+}

@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 import { environment as env } from '@env/environment';
@@ -11,8 +12,15 @@ import { ROUTE_ANIMATIONS_ELEMENTS } from '@app/core';
 export class FeaturesComponent implements OnInit {
   routeAnimationsElements = ROUTE_ANIMATIONS_ELEMENTS;
   versions = env.versions;
+  products;
+  constructor(private http: HttpClient) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.http.get('./assets/mock/products.json')
+      .subscribe((response: any) => {
+        this.products = response.data;
+      });
+  }
 
   openLink(link: string) {
     window.open(link, '_blank');
